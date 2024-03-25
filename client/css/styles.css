@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Poppins-ExtraLight';
+    src: url('../assets/fonts/Poppins-ExtraLight.ttf');
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Poppins-ExtraLight;
+    color: #000000;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: calc(100dvh - 65.7px);
+}
+
+.title-section {
+    text-align: center;
+}
+
+.main-title, .sub-title {
+    margin: .5rem 0;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 320px;
+    margin: 0.5rem 1rem;
+}
+
+.submit-button {
+    font-family: 'Poppins-ExtraLight';
+    border: 1px solid transparent;
+    background-color: rgb(255, 245, 0);
+    border-radius: 3px;
+    padding: 0.5rem;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+}
+
+/* Footer */
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.signature {
+    margin: 0px;
+}
+
+.social-networks {
+    text-decoration: none;
+    margin: 0 0.2rem;
+}
+
+.social-networks img {
+    width: 30px;
+}
